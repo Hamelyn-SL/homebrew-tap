@@ -1,15 +1,15 @@
 class Edesk < Formula
   desc "A gh-style command-line interface for the eDesk API"
   homepage "https://github.com/Hamelyn-SL/edesk-cli"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Hamelyn-SL/edesk-cli/releases/download/v0.1.0/edesk-aarch64-apple-darwin.tar.xz"
-      sha256 "73d3f15b1bc99ca926ba0112cfb5d44b49d7c41e486e713d4035cfe862279412"
+      url "https://github.com/Hamelyn-SL/edesk-cli/releases/download/v0.1.1/edesk-aarch64-apple-darwin.tar.xz"
+      sha256 "0755f7705486889d7c1ec5caa53bdead77789d4a06d15bbc30fbc27501a30138"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Hamelyn-SL/edesk-cli/releases/download/v0.1.0/edesk-x86_64-apple-darwin.tar.xz"
-      sha256 "53bf8a088ad34b8dbff1461c6410cfece46b708ca2221b6ecc81046c467b4769"
+      url "https://github.com/Hamelyn-SL/edesk-cli/releases/download/v0.1.1/edesk-x86_64-apple-darwin.tar.xz"
+      sha256 "fae76d8cda7b8a5b1112c1b7f60088bb75dcd4f79a58fbd35f33d83aed723f56"
     end
   end
   license "MIT"
